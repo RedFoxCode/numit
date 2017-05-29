@@ -1,0 +1,33 @@
+{
+  "name": "numit",
+  "version": "1.0.0",
+  "description": "Iterator for numbers to generate arrays",
+  "main": "./lib/index.js",
+  "directories": {
+    "test": "test",
+    "source": "lib"
+  },
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/_mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RedFoxCode/numit.git"
+  },
+  "keywords": [
+    "number",
+    "numbers",
+    "array",
+    "generator",
+    "iterator"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RedFoxCode/numit/issues"
+  },
+  "homepage": "https://github.com/RedFoxCode/numit#readme",
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "mocha": "^3.4.2"
+  }
+}
